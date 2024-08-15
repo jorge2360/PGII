@@ -1,0 +1,20 @@
+name: flutter_pg2
+description: Un proyecto de comercio electrónico con RA.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3 # Para realizar solicitudes HTTP
+  provider: ^6.0.0 # Para gestión de estado (opcional)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
